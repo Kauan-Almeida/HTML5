@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Tabela com (table, tr, td)</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="tabela.css">
+    </head>
+    <body>
+        <table>
+            <caption>Legenda da tabela cabaçalho</caption>
+            <tr>
+                <th rowspan="4"; id="linha">
+                    <li>Cabeçalho mesclando 3 linhas</li>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="5"; id="coluna">
+                    <li>Cabaçalho mesclando 3 colunas</li>
+                </th> 
+            </tr>
+            <tr>
+                <th id="d">Cabeçalho em negrito</th>
+                <td id="a">linha 1 do texto 1</td>
+                <td id="b">linha 2 do texto 2</td>
+                <td id="c">linha 3 do texto 3</td>
+                <td id="d">linha 3 do texto 3</td>
+            </tr>
+            <tr>
+                <th id="d">Cabeçalho em negrito</th>
+                <td id="a">linha 1 do texto 1</td>
+                <td id="b">linha 2 do texto 2</td>
+                <td id="c">linha 3 do texto 3</td>
+                <td id="d">linha 3 do texto 3</td>    
+            </tr>   
+        </table>
+        <!--fim da tabela 1 -->
+        <!--//////////////////////////////////////////////-->
+        <!--//////////////////////////////////////////////-->
+        <!--//////////////////////////////////////////////-->
+        <!--inicio da tabela 2 -->
+        <table >
+            <caption id="tabela">Modelo da segundo tabela</caption>
+        <colgroup>
+            <col span="4" style="background-color:#F00;">
+            <col span="2" style="background-color:#FF0;">
+          </colgroup>
+          <th rowspan="3"; id="z">
+            <li>Cabeçalho mesclando 2 linhas</li>
+          </th>
+          <th colspan="5"; id="w">
+              <li>Cabeçalho mesclando 5 colunas</li>
+          </th>
+          <tr id="x">
+              <th>Cabeçalho em negrito</th> 
+                  <td>texto para exemplo</td>
+                  <td>texto para exemplo</td>
+                  <td>texto para exemplo</td>
+                  <td>texto para exemplo</td> 
+          </tr>
+            <tr id="x">
+                <th>Cabeçalho em negrito</th> 
+                <td>texto para exemplo</td>
+                <td>texto para exemplo</td>
+                <td>texto para exemplo</td>
+                <td>texto para exemplo</td>
+          </tr>
+        </table>
+    </body>
+</html>

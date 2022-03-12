@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Optgroup</title>
+</head>
+<body>
+    <form action="teste.php" method="post" name="Meu_formulario">
+        <form id="form" method="post" action="">
+            <label for="feira"><br />
+                <select name="select" id="feira">
+                    <option selected value="1">Escolha um item</option>
+                        <optgroup label="frutas">
+                        <option value="banana">Banana</option>
+                        <option value="laranja">Laranja</option>
+                        <option value="melancia">Melancia</option>
+                        <option value="uva">Uva</option>
+                    </optgroup>
+                    <optgroup label="Verduras">
+                        <option value="alface">Alface</option>
+                        <option value="agriao">Agrião</option>
+                        <option value="rucula">Rucula</option>
+                    </optgroup>
+                </select>
+            </label>
+        </form>
+    </form>
+    <p>
+        <input type="reset" value="Limpar os dados do formulário">
+        <input type="submit" value="Envie o formulário">
+    </p>
+</body>
+</html>

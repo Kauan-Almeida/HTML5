@@ -1,0 +1,43 @@
+---------------FRAMEWORKS---------------
+
+http://getbootstrap.com.br/v4/
+
+https://nt1m.github.io/material-framework/#introduction
+
+http://getleaf.com/
+
+http://materializecss.com/
+
+https://getbootstrap.com/
+
+https://semantic-ui.com/
+
+http://foundation.zurb.com/
+
+http://www.cascade-framework.com/
+
+http://basegui.de/
+
+https://siimple.juanes.xyz/
+
+http://concisecss.com/
+
+---------------TEMPLATES---------------
+
+http://www.free-css.com/template-categories/responsive
+
+https://templated.co/
+
+https://dcrazed.com/free-responsive-html5-css3-templates/
+
+https://w3layouts.com/free-responsive-html5-css3-website-templates/
+
+http://www.os-templates.com/free-website-templates
+
+---------------VALIDADORES_HTML---------------
+
+Validador de HTML do W3C - https://validator.w3.org/
+
+Validador de CSS do W3C - http://jigsaw.w3.org/css-validator/
+
+Validador Unificado do W3C - Unicorn - https://validator.w3.org/unicorn/

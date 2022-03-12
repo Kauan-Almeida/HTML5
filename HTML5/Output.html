@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="teste.php" method="post" name="Meu_formulario"
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)"></form>
+    Informe quanto deseja receber de aumento, iniciando em 1%: 
+    0%
+   <input type="range" id="a" name="a" value="1">
+    100% +
+   <input type="number" id="b" name="b" value="1">
+    =
+   <output name="x" for="a b"></output>%
+   <br><br>
+   <input type="submit" value="enviar">
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+table, th, td{
+    border: 1px solid #00f;
+    
+}
+#a {background-color: #f00; width: 120px; height: 90px;}
+#b {background-color: #000; color:#fff}
+#c {background-color: #0f0; }
+#d {background-color: #ff0;}
+#coluna{height: 60px; background-color:#9f9; text-align:left; padding-left:90px;}
+#linha{background-color: #43f; color:#fff;padding-left:40px;padding-right:40px ;}
+/* fim da primeira tabela*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#tabela{padding-top:40px;}
+#x{width: 120px; height: 90px;}
+#z{padding-left:40px;padding-right:40px ;}
+#w{height: 60px; text-align:left; padding-left:90px;}

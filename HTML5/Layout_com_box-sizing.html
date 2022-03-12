@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout com box-sizing</title>
+    <meta name="viewport" content="width:devide-width, initial-scale=1, maximum-scale=1">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .topo{
+            background: #ccc;
+            border: 1px solid #f00;
+            padding:5px;
+            height:50px;
+        }
+        .menu_esquerda{
+            width: 15%;
+            height: 400px;
+            float:left;
+            padding:5px;
+            border:1px solid #00f;
+            background: #0f0;
+        }
+        .meio{
+            background: #00f;
+            width: 70%;
+            height:400px;
+            float:left;
+            padding:5px;
+            border:1px solid #0f0;
+        }
+        .menu_direita{
+            width: 15%;
+            height: 400px;
+            background: #0f0;
+            float:left;
+            padding:5px;
+            border:1px solid #00f;
+        }.rodape{
+            background: #ff0;
+            padding: 5px;
+            border: 1px solid #f00;
+            height: 50px;
+            clear:both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="topo"><p>topo</p></div>
+    <div class="menu_esquerda"><p>menu esquerda</p></div>
+    <div class="meio"><p>meio</p></div>
+    <div class="menu_direita"><p>menu direita</p></div>
+    <div class="rodape"><p>rodape</p></div>
+</body>
+</html>

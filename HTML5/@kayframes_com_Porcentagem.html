@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>@keyframe com porcentagem</title>
+    <style>
+        @keyframes teste { /* criação do @keyframes com nome teste */
+                    0%   {background-color:#FF0; left:0px; top:0px;width:300px;height: 200px;}/* posição inicial */
+                    25%  {background-color:#F00; left:400px; top:0px;width:350px; height: 250px;;}
+                    50%  {background-color:#0F0; left:400px; top:400px;width:300px;height: 200px;}
+                    75%  {background-color:#F0F; left:0px; top:400px;width:350px;height: 250px;;}
+                    100% {background-color:#FF0; left:0px; top:0px;width:300px;height: 200px;}/* volta a posição inicial  */
+        }                  
+          
+ 
+        /* Elemento que vamos aplicar a animação */
+            div {
+                    width: 300px;
+                    height: 200px;
+                    position: relative; /* definição da posição do elemento */
+                    background-color: #00F;
+                    animation: teste 10s ease-in 3s 5 alternate;
+                    /*seguindo a artem tem: nome do 
+                    1-keyframe; 
+                    2-duration; 
+                    3-timing-function;
+                    4-delay; 
+                    5-iteration-count;
+                    6-direction*/    
+                    /*abreviação do valor animation /^\*/
+                    /*comandos em estensos\/*/
+                    animation-name: teste; /* vinculação ao @keyframes pelo nome */
+                    animation-duration: 10s;/* tempo da animação */
+                    animation-timing-function:ease-in;/*define uma animação com início lento*/
+                    animation-delay: 3s;/*tempo d'espera p/ começar a animação*/
+                    animation-iteration-count:5;/*define o número de vezes que a animação ocorrerá. Caso deseje que ela funcione infinitamente utilize o valor infinite*/
+                    animation-direction:alternate;/*define o sentido da animção. Pode ser reverse ou alternate*/
+                   
+                }
+    </style>
+</head>
+<body>
+    <div>coisa aleatoria</div>
+</body>
+</html>
